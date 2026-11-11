@@ -1,0 +1,38 @@
+# Build outputs
+zenonia4
+zenonia4-demo
+*.o
+*.a
+*.so
+*.ppm
+*.png
+frame.*
+
+# Game runtime (never commit proprietary content)
+libgameDSO.so*
+assets/
+res/
+saves/
+logs/
+package/
+*.zt1
+*.pzx
+*.mpl
+*.omg
+font.ttf
+cover.jpg
+baseline.json
+build-info.json
+metadata.tar.gz
+
+# Tooling / local
+.tf-package/
+tf-package/
+*.zip
+*.tar.gz
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.user
+*.suo
